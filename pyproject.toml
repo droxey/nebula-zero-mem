@@ -1,0 +1,12 @@
+[project]
+name = "zero-mem"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "networkx>=3.6.1",
+    "scikit-learn>=1.9.0",
+    "sentence-transformers>=5.6.1",
+    "spacy>=3.8.14",
+]

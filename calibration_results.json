@@ -1,0 +1,362 @@
+{
+  "timestamp": "2026-08-05T15:07:21Z",
+  "index_stats": {
+    "messages": 1097,
+    "entities": 10322,
+    "graph_nodes": 3233,
+    "graph_edges": 62159,
+    "embed_dim": 384,
+    "threads": 147
+  },
+  "queries": [
+    {
+      "query": "What conversations mention Docker and CapRover together?",
+      "category": "relational",
+      "expected_intent": "relational",
+      "actual_intent": "relational",
+      "intent_match": true,
+      "entity_count": 2,
+      "keyword_count": 2,
+      "evidence_count": 10,
+      "calibrated_count": 10,
+      "filtered_count": 0,
+      "signal_count": 14,
+      "signal_types": {
+        "boundary_violation": 10,
+        "entity_ambiguity": 4
+      },
+      "source_views": {
+        "graph": 7,
+        "both": 3
+      },
+      "retrieve_time": 0.1668393611907959,
+      "calibrate_time": 0.009519577026367188,
+      "retrieved_threads": [
+        "AI Instructor Job Interview Questions",
+        "Building from grain-exporter codebase",
+        "Drafting availability response for recruiter",
+        "Finding your personal ikigai",
+        "Resume refinement with brand voice and quantified impact",
+        "zero token memory"
+      ],
+      "expected_thread_hit_rate": 0.0,
+      "expected_thread_hits": 0,
+      "expected_thread_total": 2,
+      "score_min": 0.3405492937060135,
+      "score_max": 1.4665373382099012,
+      "score_mean": 0.8221827878435397
+    },
+    {
+      "query": "How does the grain-exporter codebase relate to the resume refinement work?",
+      "category": "relational",
+      "expected_intent": "relational",
+      "actual_intent": "local",
+      "intent_match": false,
+      "entity_count": 0,
+      "keyword_count": 7,
+      "evidence_count": 10,
+      "calibrated_count": 10,
+      "filtered_count": 0,
+      "signal_count": 10,
+      "signal_types": {
+        "boundary_violation": 10
+      },
+      "source_views": {
+        "both": 4,
+        "graph": 4,
+        "temporal": 2
+      },
+      "retrieve_time": 0.14185118675231934,
+      "calibrate_time": 0.007131338119506836,
+      "retrieved_threads": [
+        "Building a search feature for meetings",
+        "Building from grain-exporter codebase",
+        "Contacts Clean Up",
+        "Resume editing and formatting",
+        "Resume refinement with brand voice and quantified impact",
+        "Selling bots.ac domain value",
+        "\ud83d\udcac LATEST CODEBASE"
+      ],
+      "expected_thread_hit_rate": 0.6666666666666666,
+      "expected_thread_hits": 2,
+      "expected_thread_total": 3,
+      "score_min": 0.7815894914952518,
+      "score_max": 1.889492544108063,
+      "score_mean": 1.2116199995144403
+    },
+    {
+      "query": "What is the connection between MCP and the agent automation work?",
+      "category": "relational",
+      "expected_intent": "relational",
+      "actual_intent": "relational",
+      "intent_match": true,
+      "entity_count": 1,
+      "keyword_count": 4,
+      "evidence_count": 10,
+      "calibrated_count": 9,
+      "filtered_count": 1,
+      "signal_count": 9,
+      "signal_types": {
+        "boundary_violation": 9
+      },
+      "source_views": {
+        "graph": 9,
+        "both": 1
+      },
+      "retrieve_time": 0.1714341640472412,
+      "calibrate_time": 0.004960060119628906,
+      "retrieved_threads": [
+        "Adding a new API key",
+        "Cloudflare Pay agentic commerce research",
+        "ZimaBoard 832 power supply compatibility"
+      ],
+      "expected_thread_hit_rate": 0.0,
+      "expected_thread_hits": 0,
+      "expected_thread_total": 1,
+      "score_min": 1.158622134981796,
+      "score_max": 2.219065396718246,
+      "score_mean": 1.624697580205066
+    },
+    {
+      "query": "What was discussed recently about the zero token memory project?",
+      "category": "local",
+      "expected_intent": "local",
+      "actual_intent": "local",
+      "intent_match": true,
+      "entity_count": 1,
+      "keyword_count": 5,
+      "evidence_count": 10,
+      "calibrated_count": 7,
+      "filtered_count": 3,
+      "signal_count": 11,
+      "signal_types": {
+        "boundary_violation": 7,
+        "entity_ambiguity": 4
+      },
+      "source_views": {
+        "both": 1,
+        "temporal": 2,
+        "graph": 7
+      },
+      "retrieve_time": 0.41640305519104004,
+      "calibrate_time": 0.01290750503540039,
+      "retrieved_threads": [
+        "AI Instructor Job Interview Questions",
+        "Memory update review",
+        "Migration completion and backup cleanup audit",
+        "Monthly token usage analysis",
+        "Token-efficient Claude interaction base plan",
+        "zero token memory"
+      ],
+      "expected_thread_hit_rate": 1.0,
+      "expected_thread_hits": 1,
+      "expected_thread_total": 1,
+      "score_min": 0.5774278985063762,
+      "score_max": 1.4050199556388132,
+      "score_mean": 0.829439709177311
+    },
+    {
+      "query": "What did I talk about in the Cloudflare Pay agentic commerce thread?",
+      "category": "local",
+      "expected_intent": "local",
+      "actual_intent": "local",
+      "intent_match": true,
+      "entity_count": 1,
+      "keyword_count": 5,
+      "evidence_count": 10,
+      "calibrated_count": 9,
+      "filtered_count": 1,
+      "signal_count": 11,
+      "signal_types": {
+        "boundary_violation": 9,
+        "entity_ambiguity": 2
+      },
+      "source_views": {
+        "both": 4,
+        "graph": 6
+      },
+      "retrieve_time": 0.14479351043701172,
+      "calibrate_time": 0.007073163986206055,
+      "retrieved_threads": [
+        "AI Instructor Job Interview Questions",
+        "Building from grain-exporter codebase",
+        "Cloudflare Pay agentic commerce research",
+        "Migrate WorkAdventure from Jitsi to LiveKit",
+        "Prefix trees lesson plan markdown",
+        "zero token memory"
+      ],
+      "expected_thread_hit_rate": 1.0,
+      "expected_thread_hits": 1,
+      "expected_thread_total": 1,
+      "score_min": 0.3150419497598911,
+      "score_max": 2.874669073834813,
+      "score_mean": 0.9023852176955147
+    },
+    {
+      "query": "What happened in the last conversation about the backup and migration?",
+      "category": "local",
+      "expected_intent": "local",
+      "actual_intent": "local",
+      "intent_match": true,
+      "entity_count": 0,
+      "keyword_count": 4,
+      "evidence_count": 10,
+      "calibrated_count": 10,
+      "filtered_count": 0,
+      "signal_count": 17,
+      "signal_types": {
+        "boundary_violation": 10,
+        "entity_ambiguity": 7
+      },
+      "source_views": {
+        "both": 2,
+        "graph": 7,
+        "temporal": 1
+      },
+      "retrieve_time": 0.09786796569824219,
+      "calibrate_time": 0.008805274963378906,
+      "retrieved_threads": [
+        "Finding your personal ikigai",
+        "Migration completion and backup cleanup audit",
+        "Monthly token usage analysis",
+        "Nebula workspace backup restore",
+        "Resume refinement with brand voice and quantified impact",
+        "ZimaBoard 2 for OpenClaw deployment"
+      ],
+      "expected_thread_hit_rate": 1.0,
+      "expected_thread_hits": 2,
+      "expected_thread_total": 2,
+      "score_min": 0.475889839516973,
+      "score_max": 1.1542232696850387,
+      "score_mean": 0.661777706969756
+    },
+    {
+      "query": "Compare the ZimaBoard deployment with the Docker CapRover setup",
+      "category": "mixed",
+      "expected_intent": "mixed",
+      "actual_intent": "mixed",
+      "intent_match": true,
+      "entity_count": 3,
+      "keyword_count": 3,
+      "evidence_count": 10,
+      "calibrated_count": 10,
+      "filtered_count": 0,
+      "signal_count": 12,
+      "signal_types": {
+        "boundary_violation": 10,
+        "entity_ambiguity": 2
+      },
+      "source_views": {
+        "both": 3,
+        "graph": 5,
+        "temporal": 2
+      },
+      "retrieve_time": 0.15265798568725586,
+      "calibrate_time": 0.015517711639404297,
+      "retrieved_threads": [
+        "Auditing and optimizing a system prompt",
+        "Deploying OpenClaw with Docker and CapRover",
+        "Hazel rules review and error fixes",
+        "Virtual hackathon space with video chat gaming environment",
+        "WorkAdventure LiveKit CapRover deployment troubleshooting",
+        "ZimaBoard 2 for OpenClaw deployment",
+        "\ud83d\udcac PLAN MODE: i need a detailed a\u2026"
+      ],
+      "expected_thread_hit_rate": 1.0,
+      "expected_thread_hits": 2,
+      "expected_thread_total": 2,
+      "score_min": 0.2802012440157728,
+      "score_max": 1.491918709644308,
+      "score_mean": 0.6889735604728517
+    },
+    {
+      "query": "How does the LinkedIn verification issue connect to the job search conversations?",
+      "category": "mixed",
+      "expected_intent": "mixed",
+      "actual_intent": "relational",
+      "intent_match": false,
+      "entity_count": 1,
+      "keyword_count": 6,
+      "evidence_count": 10,
+      "calibrated_count": 8,
+      "filtered_count": 2,
+      "signal_count": 8,
+      "signal_types": {
+        "boundary_violation": 8
+      },
+      "source_views": {
+        "graph": 10
+      },
+      "retrieve_time": 0.1797652244567871,
+      "calibrate_time": 0.005773782730102539,
+      "retrieved_threads": [
+        "",
+        "Building from grain-exporter codebase",
+        "Contacting LinkedIn support for stuck verification",
+        "Document review and refinement checklist",
+        "Finding your personal ikigai",
+        "Resume refinement with brand voice and quantified impact",
+        "Verifying domain ownership with Cloudflare DNS",
+        "\ud83d\udcac connect to grain and get trans\u2026"
+      ],
+      "expected_thread_hit_rate": 0.5,
+      "expected_thread_hits": 1,
+      "expected_thread_total": 2,
+      "score_min": 1.0310570390398248,
+      "score_max": 2.223035563550766,
+      "score_mean": 1.5435036844574053
+    },
+    {
+      "query": "What are all the conversations about AI and agents?",
+      "category": "mixed",
+      "expected_intent": "mixed",
+      "actual_intent": "local",
+      "intent_match": false,
+      "entity_count": 1,
+      "keyword_count": 2,
+      "evidence_count": 10,
+      "calibrated_count": 9,
+      "filtered_count": 1,
+      "signal_count": 12,
+      "signal_types": {
+        "boundary_violation": 9,
+        "entity_ambiguity": 3
+      },
+      "source_views": {
+        "both": 1,
+        "graph": 7,
+        "temporal": 2
+      },
+      "retrieve_time": 0.14287281036376953,
+      "calibrate_time": 0.008993387222290039,
+      "retrieved_threads": [
+        "Accessing droxey.com blocked",
+        "Adding a new API key",
+        "Cloudflare Pay agentic commerce research",
+        "Finding your personal ikigai",
+        "Resume refinement with brand voice and quantified impact",
+        "ZimaBoard 2 for OpenClaw deployment",
+        "zero token memory"
+      ],
+      "expected_thread_hit_rate": null,
+      "expected_thread_hits": null,
+      "expected_thread_total": null,
+      "score_min": 0.3983905862495745,
+      "score_max": 1.1921056807630266,
+      "score_mean": 0.5786460775110011
+    }
+  ],
+  "summary": {
+    "intent_accuracy": 0.6666666666666666,
+    "total_evidence": 90,
+    "total_filtered": 8,
+    "total_signals": 104,
+    "avg_retrieve_time": 0.17938725153605142,
+    "avg_calibrate_time": 0.008964644538031684,
+    "overall_thread_hit_rate": 0.6458333333333334,
+    "signal_types": {
+      "boundary_violation": 82,
+      "entity_ambiguity": 22
+    }
+  }
+}

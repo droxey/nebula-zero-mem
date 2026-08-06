@@ -1,0 +1,23 @@
+{
+  "built_at": 1785938340.1287951,
+  "embed_model": "BAAI/bge-m3",
+  "stats": {
+    "build_time_sec": 1.803,
+    "num_messages": 9,
+    "num_entities": 13,
+    "num_unique_entities": 13,
+    "num_graph_nodes": 13,
+    "num_graph_edges": 6,
+    "temporal_levels": {
+      "turn": 9,
+      "window": 2,
+      "episode": 2,
+      "local": 2
+    },
+    "embedding_dim": 1024
+  },
+  "num_messages": 9,
+  "num_entities": 13,
+  "num_graph_nodes": 13,
+  "num_graph_edges": 6
+}

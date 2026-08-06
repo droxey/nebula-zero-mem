@@ -1,0 +1,23 @@
+{
+  "built_at": 1785939906.7708566,
+  "embed_model": "all-MiniLM-L6-v2",
+  "stats": {
+    "build_time_sec": 68.681,
+    "num_messages": 1097,
+    "num_entities": 10322,
+    "num_unique_entities": 3233,
+    "num_graph_nodes": 3233,
+    "num_graph_edges": 62159,
+    "temporal_levels": {
+      "turn": 1097,
+      "window": 287,
+      "episode": 222,
+      "local": 147
+    },
+    "embedding_dim": 384
+  },
+  "num_messages": 1097,
+  "num_entities": 10322,
+  "num_graph_nodes": 3233,
+  "num_graph_edges": 62159
+}
